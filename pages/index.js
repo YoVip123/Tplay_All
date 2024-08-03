@@ -102,7 +102,7 @@ export default function Home() {
         <Grid.Row>
           <Grid.Column></Grid.Column>
           <Grid.Column textAlign='center' computer={8} tablet={12} mobile={16}>
-            <a target="_blank" rel="noreferrer">USE FREE</a>
+            <a href="https://github.com/ExWhyZed9/tataplay_generator" target="_blank" rel="noreferrer">View source code on Github</a>
           </Grid.Column>
           <Grid.Column></Grid.Column>
         </Grid.Row>
