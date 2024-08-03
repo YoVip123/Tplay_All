@@ -76,8 +76,6 @@ export default function Home() {
                 <p>
                   Set reload data to 2.5 hour in provider setting of Ott Navigator player &  Enjoy!
                 </p>
-                <Message.Header>You cannot generate a permanent m3u file URL on localhost but you can download your m3u file: </Message.Header>
-                <p></p>
                 <p>
                   <Button loading={downloading} primary onClick={() => downloadM3uFile('ts.m3u')}>Download m3u file</Button>
                 </p>
@@ -102,9 +100,7 @@ export default function Home() {
         <Grid.Row>
           <Grid.Column></Grid.Column>
           <Grid.Column textAlign='center' computer={8} tablet={12} mobile={16}>
-            <a href="https://github.com/lalitjoshi06/tataplay_url" target="_blank" rel="noreferrer">View source code on Github</a>
-          </Grid.Column>
-          <Grid.Column></Grid.Column>
+  <Grid.Column></Grid.Column>
         </Grid.Row>
       </Grid>
     </div>
